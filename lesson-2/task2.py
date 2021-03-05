@@ -8,7 +8,6 @@ for numbers in info_list:
         new_list.append(numbers)
 new_list[2] = '05'
 new_list[12] = '"+05"'
-second_list = new_list
 print(" ".join(new_list))
 exit(0)
 
