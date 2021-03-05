@@ -24,7 +24,7 @@ price_list = [
 ]
 for price in price_list:
     rub = int(price)
-    kop = int(price * 100) % 100
+    kop = int(price * 100 + .1) % 100
     print(f'{rub} руб {kop:02} коп')
 
     #Я не понял почему от копеек у меня отнимается - 0.01
